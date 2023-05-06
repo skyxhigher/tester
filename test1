@@ -1,8 +1,4 @@
-/**
- *Submitted for verification at Etherscan.io on 2021-05-04
-*/
-
-pragma solidity ^0.8.0;
+.8.0;
 // SPDX-License-Identifier: Unlicensed
 
 interface IERC20 {
@@ -580,3 +576,5 @@ contract NotSafeMoon is Context, IERC20, Ownable, ReentrancyGuard {
 		emit TransferBurn(sender, BURN_ADDRESS, tBurn);
 		emit Transfer(sender, recipient, tTransferAmount);
 	}
+
+}
